@@ -6,14 +6,13 @@ import pic3nbg from '../MyPics/pic3nbg.png'
 const Home = () => {
     return (
         <div className="home-container">
-          
             <div className="hero-image">
                 <img src={pic3nbg} alt="Hero Pic not displayed" />
             </div>
             <div className="main-section-text">
                 <div className="text-button">
-                        <p>Hi there!</p>
-                        <div className="square"></div>
+                    <p>Hi there!</p>
+                    <div className="square"></div>
                 </div>
                 <div className="about-me">
                     <h2>I am Ash Sharma, I am a Web Developer</h2>
@@ -28,11 +27,13 @@ const Home = () => {
                 </div>
 
                 <div className="social-media">
-                <i class="fab fa-facebook-square"></i>
-                <i class="fab fa-instagram"></i>
-                <i class="fab fa-twitter"></i>
-                 </div>
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                </div>
             </div>
+
+
         </div>
     );
 };

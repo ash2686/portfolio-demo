@@ -14,7 +14,7 @@ const Menu = () => {
 
             <div className="menu-block" >
                 <ul>
-                  <Link to='/'><li className="menu-link" > Home </li></Link>
+                  <Link exact to='/'><li className="menu-link" > Home </li></Link>
                   <Link to='/about'><li className="menu-link" > About </li></Link>
                     <li className="menu-link" > Services </li>
                     <li className="menu-link" > Portfolio </li>
