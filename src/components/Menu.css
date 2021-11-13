@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+.menu-container{
+    /* background-color: rgba(10,10,10,.5); */
+    height: 15vh;
+    width: 100vw;
+    position: fixed;
+    top:0;
+    left:0;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.menu-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    height: 50%;
+    width: 4vw;
+    /* background-color:rgba(10, 1, 36, 0.335); */
+    /* box-shadow: inset 5px 5px 50px rgba(0,0,0,0.2); */
+    /* background-color: rgb(255, 255, 255); */
+    border-radius: 5px;
+    margin-left: 8em;
+}
+
+img{
+    width: 5em;
+    height: 5em;
+    /* margin-left: 8em; */
+}
+
+.menu-block{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50vw;
+}
+ul{
+    list-style: none;
+    text-decoration: none;
+    /* border: 1px solid yellow; */
+    z-index: 10000;
+}
+
+ul li{
+    display: inline-block;
+    font-size: 1em;
+    color: rgb(255, 255, 255,.9);
+    margin: 0 .7em;
+    font-family: 'Ubuntu', sans-serif;
+}

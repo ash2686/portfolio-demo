@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+.home-container {
+    width: 100vw;
+    height: 100vh;
+    background: url(../Assets/simpleBg.jpg) no-repeat center fixed;
+    background-size: 100vw 100vh;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.hero-image {
+    height: 90vh;
+    width: 35vw;
+    /* background-color: azure; */
+    position: fixed;
+    bottom: 0;
+    right: 12em;
+    /* object-fit: fill; */
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-image img {
+    height: 80vh;
+    width: 85%;
+    filter: brightness(120%) hue-rotate(1deg) drop-shadow(1px 1px 5px rgba(67, 59, 112, 0.8)) saturate(2);
+    /* border: 1px solid white; */
+    z-index: -100;
+}
+
+.main-section-text {
+    /* border: 1px solid white; */
+    position: relative;
+    left: 20em;
+    top: 15rem;
+    width: 30vw;
+    height: 50vh;
+}
+
+.main-section-text .text-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .7em;
+    width: 18%;
+    padding: .3em;
+    background-color: white;
+    color: rgba(22, 2, 138, 0.8);
+    border-radius: 5px;
+    font-weight: bolder;
+    flex-direction: column;
+    position: relative;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: .5rem;
+}
+
+.text-button .square {
+    position: absolute;
+    top: 1.5em;
+    width: .4em;
+    height: .4em;
+    background-color: white;
+    transform: rotate(45deg);
+}
+
+.main-section-text .about-me {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-size: 1.5em;
+    margin-bottom: 2rem;
+}
+
+.main-section-text .para-me {
+    color: white;
+    font-weight: bold;
+    font-size: .9em;
+    margin: 2rem 0;
+    line-height: 1.7em;
+}
+
+.main-section-text .buttons-grp {
+    margin-top: 2.5em;
+}
+
+.buttons-grp .portfolio {
+    padding: .9em 0;
+    width: 15em;
+    border-radius: 5px;
+    font-size: .8em;
+    color: rgb(55, 108, 253);
+    border: none;
+    outline: none;
+    letter-spacing: .2em;
+    font-weight: bolder;
+    /* margin: 0 .4em; */
+}
+
+.buttons-grp .hire {
+    padding: .9em 0;
+    width: 12em;
+    margin-right: 1.5em;
+    background-color: rgb(55, 108, 253);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255, .8);
+    font-size: .8em;
+    letter-spacing: .2em;
+    font-weight: bolder;
+}
+
+.buttons-grp i {
+    width: 2em;
+    height: .1em;
+    color: white;
+}
+
+.buttons-grp .portfolio i {
+    color: rgb(55, 108, 253);
+}
+
+.social-media {
+    margin-top: 2.5rem;
+    width: 25vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5em;
+    color: white;
+    /* color: rgb(55, 108, 253); */
+}
