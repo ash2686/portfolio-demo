@@ -1,13 +1,12 @@
 import React from 'react';
 import './Home.css'
-// import Menu from './Menu'
 import pic3nbg from '../MyPics/pic3nbg.png'
 
 
 const Home = () => {
     return (
         <div className="home-container">
-            {/* <Menu /> */}
+          
             <div className="hero-image">
                 <img src={pic3nbg} alt="Hero Pic not displayed" />
             </div>

@@ -8,14 +8,14 @@ import { Link } from 'react-router-dom'
 const Menu = () => {
     return (
         <div className='menu-container'>
-
             <div className="menu-logo">
                 <img src={logo} alt="Image not found" />
             </div>
+
             <div className="menu-block" >
                 <ul>
                   <Link to='/'><li className="menu-link" > Home </li></Link>
-                   <Link to='/about'><li className="menu-link" > About </li></Link>
+                  <Link to='/about'><li className="menu-link" > About </li></Link>
                     <li className="menu-link" > Services </li>
                     <li className="menu-link" > Portfolio </li>
                     <li className="menu-link" > Pricing </li>
@@ -27,7 +27,5 @@ const Menu = () => {
         </div>
     );
 };
-
-Menu.propTypes = {};
 
 export default Menu;

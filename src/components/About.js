@@ -1,8 +1,6 @@
 import React from 'react';
 import './About.css'
 import img from '../MyPics/pic1.png'
-import {Link} from 'react-router-dom'
-
 
 const About = () => {
     return (
