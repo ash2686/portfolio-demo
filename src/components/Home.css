@@ -22,7 +22,7 @@
 
 .hero-image img {
     height: 80vh;
-    width: 85%;
+    width: 100%;
     filter: brightness(120%) hue-rotate(1deg) drop-shadow(1px 1px 5px rgba(67, 59, 112, 0.8)) saturate(2);
     /* border: 1px solid white; */
     /* z-index: -100; */

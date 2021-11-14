@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css'
-import img from '../MyPics/pic1.png'
+import leo from '../MyPics/leo.png'
 
 const About = () => {
     return (
@@ -23,7 +23,7 @@ const About = () => {
                 </div>
 
                 <div className="image-container">
-                    <img src={img} alt="Image Path not found" />
+                    <img src={leo} alt="Image Path not found" />
                 </div>
             </div>
         </div>

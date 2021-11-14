@@ -1,13 +1,13 @@
 import React from 'react';
 import './Home.css'
-import pic3nbg from '../MyPics/pic3nbg.png'
+import leo from '../MyPics/leo.png'
 
 
 const Home = () => {
     return (
         <div className="home-container">
             <div className="hero-image">
-                <img src={pic3nbg} alt="Hero Pic not displayed" />
+                <img src={leo} alt="Hero Pic not displayed" />
             </div>
             <div className="main-section-text">
                 <div className="text-button">
@@ -15,7 +15,7 @@ const Home = () => {
                     <div className="square"></div>
                 </div>
                 <div className="about-me">
-                    <h2>I am Ash Sharma, I am a Web Developer</h2>
+                    <h2>My Name is Leo</h2>
                 </div>
                 <div className="para-me">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime rem perspiciatis consequatur dignissimos!
