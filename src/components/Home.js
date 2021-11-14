@@ -15,7 +15,8 @@ const Home = () => {
                     <div className="square"></div>
                 </div>
                 <div className="about-me">
-                    <h2>My Name is Leo</h2>
+                    <h2>I am Ash Sharma,<br /> 
+                    I am a Web Designer</h2>
                 </div>
                 <div className="para-me">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime rem perspiciatis consequatur dignissimos!

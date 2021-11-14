@@ -9,7 +9,7 @@ const Menu = () => {
     return (
         <div className='menu-container'>
             <div className="menu-logo">
-                <img src={logo} alt="Image not found" />
+              <Link to='/'><img src={logo} alt="Image not found" /></Link>
                 
             </div>
 
@@ -17,7 +17,7 @@ const Menu = () => {
                 <ul>
                   <Link exact to='/'><li className="menu-link" > Home </li></Link>
                   <Link to='/about'><li className="menu-link" > About </li></Link>
-                    <li className="menu-link" > Services </li>
+                  <Link to='/services'><li className="menu-link" > Services </li></Link>
                     <li className="menu-link" > Portfolio </li>
                     <li className="menu-link" > Pricing </li>
                     <li className="menu-link" > Blog </li>

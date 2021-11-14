@@ -32,7 +32,7 @@
     /* border: 1px solid white; */
     position: relative;
     left: 20em;
-    top: 15rem;
+    top: 20rem;
     width: 30vw;
     height: 50vh;
 }
@@ -120,7 +120,7 @@
 }
 
 .social-media {
-    margin-top: 2.5rem;
+    margin-top: 4rem;
     width: 25vw;
     display: flex;
     align-items: center;
