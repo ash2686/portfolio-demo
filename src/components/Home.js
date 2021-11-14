@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css'
-import leo from '../MyPics/leo.png'
+import leo from '../MyPics/pic3nbg.png'
 
 
 const Home = () => {

@@ -9,8 +9,8 @@ const Menu = () => {
     return (
         <div className='menu-container'>
             <div className="menu-logo">
-                {/* <img src={logo} alt="Image not found" /> */}
-                LOGO
+                <img src={logo} alt="Image not found" />
+                
             </div>
 
             <div className="menu-block" >
