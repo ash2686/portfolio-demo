@@ -1,14 +1,14 @@
 import React from 'react'
 import Service from './Service'
 import './Services.css'
-import candle from '../Assets/candle.png'
-import castle from '../Assets/castle.png'
-import cat from '../Assets/cat.png'
-import ghost from '../Assets/ghost.png'
-import moon from '../Assets/moon.png'
-import poison from '../Assets/poison.png'
-import skull from '../Assets/skull.png'
-import zombie from '../Assets/zombie.png'
+import candle from '../assets/candle.png'
+import castle from '../assets/castle.png'
+import cat from '../assets/cat.png'
+import ghost from '../assets/ghost.png'
+import moon from '../assets/moon.png'
+import poison from '../assets/poison.png'
+import skull from '../assets/skull.png'
+import zombie from '../assets/zombie.png'
 
 function Services() {
     return (

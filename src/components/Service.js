@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import './Service.css'
-import candle from '../Assets/candle.png'
+import candle from '../assets/candle.png'
 
 function Service(props) {
     return (

@@ -2,7 +2,7 @@
 .about-main{
     width: 100vw;
     height: 100vh;
-    background-image: url('../Assets/clrBg.png');
+    background-image: url('../assets/clrBg.png');
    background-repeat: no-repeat;
    background-size: 100vw 100vh;
    padding-top: 20vh;

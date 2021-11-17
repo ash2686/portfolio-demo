@@ -1,6 +1,6 @@
 import React from 'react'
 import './Pricing.css'
-import account from '../Assets/account.png'
+import account from '../assets/account.png'
 
 function Pricing() {
     return (
