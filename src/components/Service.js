@@ -8,7 +8,7 @@ function Service(props) {
         <div className='main-service'>
             <Link to='/'>
                 <li className="main-service-block">
-                  <img src={props.src} alt="hello" />
+                  <img src={props.src} alt="Icon Missing" />
                     <h3 className="msb-text">
                         {props.text}
                     </h3>

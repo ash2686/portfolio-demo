@@ -39,7 +39,9 @@ img{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 50vw;
+    width: 40vw;
+    /* margin-right: 2em; */
+    /* background-color: rgba(192,192,192,.6); */
 }
 ul{
     list-style: none;

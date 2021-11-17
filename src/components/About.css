@@ -77,10 +77,10 @@ padding-top:.5em;
 }
 
 .about-main .image-container img{
-    width: 50%;
+    width: 40%;
     height: 100%;
     border-radius: 5px;
-    filter: drop-shadow(10px 0 5px rgba(0, 0, 0, 0.5)) drop-shadow(-10px 0 5px rgba(0, 0, 0, 0.5)) drop-shadow(0 10px 5px rgba(0, 0, 0, 0.5)) drop-shadow(0 -10px 5px rgba(0, 0, 0, 0.5));
+    /* filter: drop-shadow(2px 0px 2px rgba(31, 29, 29, 0.5)) drop-shadow(-2px 0 5px rgba(31, 29, 29, 0.5)) drop-shadow(0 2px 5px rgba(136, 136, 136, 0.5)) drop-shadow(0 -2px 5px rgba(136, 136, 136, 0.5));npm  */
     border-radius: 50%;
     
 }

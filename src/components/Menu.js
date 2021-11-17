@@ -18,10 +18,10 @@ const Menu = () => {
                   <Link exact to='/'><li className="menu-link" > Home </li></Link>
                   <Link to='/about'><li className="menu-link" > About </li></Link>
                   <Link to='/services'><li className="menu-link" > Services </li></Link>
-                    <li className="menu-link" > Portfolio </li>
-                    <li className="menu-link" > Pricing </li>
-                    <li className="menu-link" > Blog </li>
+                  <Link to='/pricing'><li className="menu-link" > Pricing </li></Link>
+                  <Link to='/blog'><li className="menu-link" > Blog </li></Link>
                     <li className="menu-link" > Contact </li>
+                    {/* <li className="menu-link" > Portfolio </li> */}
                 </ul >
             </div>
 
