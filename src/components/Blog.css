@@ -144,7 +144,8 @@ margin-top:4em;
             width: 100%;
             height: 100%;
             background-position: center center;
-            border-radius:.5em
+            border-radius:.5em;
+            opacity: .9;
    }
 
    .blog-bottom{
@@ -164,10 +165,10 @@ margin-top:4em;
    }
 
    .blog-bottom .country h2{
-      background: linear-gradient(to bottom, orange, white, green);
+      background: linear-gradient(to right, orange, white, green);
       display: inline;
       -webkit-background-clip: text;
       background-clip: text;
       -webkit-text-fill-color:transparent;      
-      font-size: 1.2em;;
+      font-size: 1em;;
    }
