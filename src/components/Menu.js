@@ -20,7 +20,7 @@ const Menu = () => {
                   <Link to='/services'><li className="menu-link" > Services </li></Link>
                   <Link to='/pricing'><li className="menu-link" > Pricing </li></Link>
                   <Link to='/blog'><li className="menu-link" > Blog </li></Link>
-                    <li className="menu-link" > Contact </li>
+                   <Link to='/contact'><li className="menu-link" > Contact </li></Link>
                     {/* <li className="menu-link" > Portfolio </li> */}
                 </ul >
             </div>
