@@ -13,52 +13,54 @@ import zombie from '../assets/zombie.png'
 function Services() {
     return (
         <div className='services-main'>
-            <ul className="services-block">
-                <Service 
-                src={candle} 
-                text= "Candle"
-                />
+            <div className="services-main-block">
+                <ul className="services-block-1">
+                    <Service
+                        src={candle}
+                        text="Candle"
+                    />
 
-                <Service 
-                src={castle} 
-                text= "Castle"
-                />
+                    <Service
+                        src={castle}
+                        text="Castle"
+                    />
 
-                <Service 
-                src={cat} 
-                text= "Cat"
-                />
+                    <Service
+                        src={cat}
+                        text="Cat"
+                    />
 
-                <Service 
-                src={ghost} 
-                text= "Ghost"
-                />
+                    <Service
+                        src={ghost}
+                        text="Ghost"
+                    />
 
-                
-            </ul>  
-          
 
-            <ul>
-                <Service 
-                src={moon} 
-                text= "Moon"
-                />
+                </ul>
 
-                <Service 
-                src={poison} 
-                text= "Poison"
-                />
 
-                <Service 
-                src={skull} 
-                text= "Skull"
-                />
+                <ul className="services-block-2">
+                    <Service
+                        src={moon}
+                        text="Moon"
+                    />
 
-                <Service 
-                src={zombie} 
-                text= "Zombie"
-                />
-            </ul>          
+                    <Service
+                        src={poison}
+                        text="Poison"
+                    />
+
+                    <Service
+                        src={skull}
+                        text="Skull"
+                    />
+
+                    <Service
+                        src={zombie}
+                        text="Zombie"
+                    />
+                </ul>
+            </div>
         </div>
     )
 }
