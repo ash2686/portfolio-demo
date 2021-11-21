@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "./static/css/main.720aa380.chunk.css",
-    "main.js": "./static/js/main.224c3fa8.chunk.js",
-    "main.js.map": "./static/js/main.224c3fa8.chunk.js.map",
+    "main.css": "./static/css/main.897a3d41.chunk.css",
+    "main.js": "./static/js/main.0a327bc7.chunk.js",
+    "main.js.map": "./static/js/main.0a327bc7.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.4af18023.js",
     "runtime-main.js.map": "./static/js/runtime-main.4af18023.js.map",
     "static/js/2.d6c6b135.chunk.js": "./static/js/2.d6c6b135.chunk.js",
     "static/js/2.d6c6b135.chunk.js.map": "./static/js/2.d6c6b135.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.720aa380.chunk.css.map": "./static/css/main.720aa380.chunk.css.map",
+    "static/css/main.897a3d41.chunk.css.map": "./static/css/main.897a3d41.chunk.css.map",
     "static/js/2.d6c6b135.chunk.js.LICENSE.txt": "./static/js/2.d6c6b135.chunk.js.LICENSE.txt",
     "static/media/account.e7bb75ae.png": "./static/media/account.e7bb75ae.png",
     "static/media/address.17d39b0c.png": "./static/media/address.17d39b0c.png",
@@ -17,14 +17,13 @@
     "static/media/cat.14de01f2.png": "./static/media/cat.14de01f2.png",
     "static/media/About.css": "./static/media/clrBg.6b25e8d0.png",
     "static/media/email.9082177d.png": "./static/media/email.9082177d.png",
-    "static/media/ghost.bc8d0b70.png": "./static/media/ghost.bc8d0b70.png",
+    "static/media/Blog.css": "./static/media/ghost.bc8d0b70.png",
     "static/media/linksBg.395f61a6.jpg": "./static/media/linksBg.395f61a6.jpg",
     "static/media/moon.52a6e845.png": "./static/media/moon.52a6e845.png",
     "static/media/mtrxBg.d204b14a.jpg": "./static/media/mtrxBg.d204b14a.jpg",
     "static/media/phone.b183824f.png": "./static/media/phone.b183824f.png",
     "static/media/pic1.e37da9e6.png": "./static/media/pic1.e37da9e6.png",
     "static/media/pic3nbg.0dd13292.png": "./static/media/pic3nbg.0dd13292.png",
-    "static/media/Blog.css": "./static/media/pic4.59fdcdd3.jpg",
     "static/media/poison.dc3acb2c.png": "./static/media/poison.dc3acb2c.png",
     "static/media/Services.css": "./static/media/pttrnBg.22a3ca77.png",
     "static/media/Pricing.css": "./static/media/simpleBg.15985742.jpg",
@@ -35,7 +34,7 @@
   "entrypoints": [
     "static/js/runtime-main.4af18023.js",
     "static/js/2.d6c6b135.chunk.js",
-    "static/css/main.720aa380.chunk.css",
-    "static/js/main.224c3fa8.chunk.js"
+    "static/css/main.897a3d41.chunk.css",
+    "static/js/main.0a327bc7.chunk.js"
   ]
 }
