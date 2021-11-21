@@ -22,7 +22,8 @@ const contact = () => {
                         <div className="contact-address">
                             <img src={address} alt="Address not found" />
                             <h3>ADDRESS</h3>
-                            <h4>101 Queen Street, <br />Auckland</h4>
+                            {/* <h4>101 Queen Street, <br />Auckland</h4> */}
+                            <h4>101 Hello Street, <br />Plaza</h4>
                         </div>
 
                         <div className="contact-phone">

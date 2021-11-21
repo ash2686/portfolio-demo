@@ -18,6 +18,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    /* background-image: url(../mypics/pic3nbg.png) no repeat center center; */
 }
 
 .hero-image img {

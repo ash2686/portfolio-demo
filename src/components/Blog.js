@@ -12,7 +12,7 @@ function Blog() {
                     <div className="logo-container">
 
                         <div className="blog-logo"></div>
-                        <div className="logo-text"><p>Written by</p><br /><h4>Ash Sharma</h4></div>
+                        <div className="logo-text"><p>Written by</p><br /><h4>Leo Di Caprio</h4></div>
                         <div className="logo-date">November 26, 2018</div>
                     </div>
 
@@ -29,7 +29,8 @@ function Blog() {
             </div>
 
             <div className="blog-bottom">
-                <h2>I'm a <span className="bold">Web Designer</span> from <span className="country"><h2>India</h2></span>, I am in love with Coding, it is officially my life</h2>
+                {/* <h2>I'm a <span className="bold">Web Designer</span> from <span className="country"><h2>India</h2></span>, I am in love with Coding, it is officially my life</h2> */}
+                <h2> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur fugit voluptatem iure obcaecati at officiis. </h2>
             </div>
 
 

@@ -3,10 +3,6 @@
 .main-blog{
     width: 100vw;
     height: 80vh;
-    /* background-image: linear-gradient(to right top,rgb(5, 202, 252),rgb(255, 209, 6)); */
-
-    /* background-image: url('../MyPics/me1l.jpg'); */
-    /* background-size: 100% 100%; */
     z-index: 10;
     position: relative;
     /* outline: 2px solid red; */
@@ -15,19 +11,6 @@
     font-family: 'Ubuntu', sans-serif;
 
 }
-/* 
-.main-blog::before{
-    content:'';
-    background-image: linear-gradient(to right top,rgb(5, 202, 252),rgb(255, 209, 6));
-    opacity: .2;
-    width: 100vw;
-    height: 100vh;
-    left:0;
-    top:0;
-    position: absolute;
-    z-index:-100;
-} */
-
 
 .main-blog .blog-top{
     width: 100%;
@@ -68,7 +51,9 @@
     height: 5em;
     /* border: 1px solid black; */
     border-radius: 50%;
-    background-image: url('../mypics/pic4.jpg');
+    /* background-image: url('../mypics/pic4.jpg'); */
+    background-image: url('../assets/ghost.png');
+
     background-size: contain;
 }
 
