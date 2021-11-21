@@ -8,17 +8,18 @@
 
 
 .main-service li{
-    width:14vw;
+    width:13vw;
     height:25vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    background: rgb(128,128,128,.3);
+    background: rgb(128,128,128,.8);
     box-shadow: 10px 10px 10px rgba(0,0,0,.8);
     border-radius: 5px;
     margin: 0 2em;
     text-decoration: underline;
-    list-style: none;
+    z-index:100;
+    /* list-style: none; */
     /* margin-top:15vh; */
    }

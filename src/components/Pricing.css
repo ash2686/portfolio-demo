@@ -1,16 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Ubuntu:wght@300;700&display=swap');
 
+
+.main-pricing-block{
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-image : url('../assets/simpleBg.jpg')
+}
 .main-pricing{
     font-family: 'Ubuntu', sans-serif;
     width: 70vw;
     height: 70vh;
-    background-color: rgba(240, 240, 233,.7);
+    /* background-color: rgba(3, 47, 105,.5); */
+    background-color: #2d3a39;
+    /* box-shadow: 10px 10px 10px rgb(1, 15, 77), -5px -5px 20px rgb(0, 0, 0); */
     margin-top: 9em;
     border-radius: 10px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    opacity: .8;
     /* border: 1px solid black; */
 }
 
@@ -21,6 +33,7 @@
     padding: 2em;
     background-image: linear-gradient(to right top, rgb(63, 63, 252),rgb(172, 172, 248));
     border-radius: 1em;
+  
 }
 
 .pricing-right{
@@ -38,6 +51,7 @@
     width: 100%;
     /* border: 1px solid blue; */
     /* align-self: */
+    color: white;
 }
 
 .pricing-right-bottom{

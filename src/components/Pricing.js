@@ -4,7 +4,9 @@ import account from '../assets/account.png'
 
 function Pricing() {
     return (
+        <div className="main-pricing-block">
         <div className="main-pricing">
+            
             <div className="pricing-box1">
                 <h1>Save your<br/><span>money now</span></h1>
                 <p className="para1">Lorem ipsum dolor sit amet consectetur, adipisicing edflit. Cupiditate delectus totam  non! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, distinctio vel. </p>
@@ -73,7 +75,8 @@ function Pricing() {
                     </div>
                 </div>
             </div>
-
+            
+        </div>
         </div>
     )
 }
