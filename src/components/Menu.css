@@ -19,12 +19,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 1px solid black; */
     height: 50%;
     width: 4vw;
-    /* background-color:rgba(10, 1, 36, 0.335); */
-    /* box-shadow: inset 5px 5px 50px rgba(0,0,0,0.2); */
-    /* background-color: rgb(255, 255, 255); */
     border-radius: 5px;
     margin-left: 8em;
 }
@@ -32,7 +28,6 @@
 img{
     width: 5em;
     height: 5em;
-    /* margin-left: 8em; */
 }
 
 .menu-block{
@@ -41,9 +36,8 @@ img{
     justify-content: space-around;
     align-items: center;
     width: 40vw;
-    /* margin-right: 2em; */
-    /* background-color: rgba(192,192,192,.6); */
 }
+
 ul{
     list-style: none;
     text-decoration: none;
